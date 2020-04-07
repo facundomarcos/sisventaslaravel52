@@ -1,0 +1,6 @@
+https://parzibyte.me/blog/2017/05/29/hacer-despues-clonar-proyecto-laravel/
+
+composer update
+composer install
+Crear el archivo .env (usar el que viene de ejemplo)
+php artisan key:generate

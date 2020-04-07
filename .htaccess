@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sisventas\.presupuesto\.net\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sisventas\.presupuesto\.net\.ar$
+RewriteRule ^/?$ "http\:\/\/presupuesto\.net\.ar\/sisVentas" [R=301,L]
+
